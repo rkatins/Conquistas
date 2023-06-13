@@ -1,0 +1,201 @@
+Afganistán - 300.000
+Albania - 8.000
+Alemania - 80.000
+Andorra - 0
+Angola - 
+Antigua y Barbuda - 
+Arabia Saudita - 
+Argelia - 
+Argentina - 
+Armenia - 
+Australia - 
+Austria - 
+Azerbaiyán - 
+Bahamas - 
+Bangladés - 
+Barbados - 
+Baréin - 
+Bélgica - 
+Belice - 
+Benín - 
+Bielorrusia - 
+Birmania (Myanmar) - 
+Bolivia - 
+Bosnia y Herzegovina - 
+Botsuana - 
+Brasil - 
+Brunéi - 
+Bulgaria - 
+Burkina Faso - 
+Burundi - 
+Bután - 
+Cabo Verde - 
+Camboya - 
+Camerún - 
+Canadá - 
+Catar - 
+Chad - 
+Chile - 
+China - 2.000.000
+Chipre - 
+Ciudad del Vaticano - 0
+Colombia - 
+Comoras - 
+Corea del Norte - 1.200.000
+Corea del Sur - 
+Costa de Marfil - 
+Costa Rica - 
+Croacia - 
+Cuba - 
+Dinamarca - 
+Dominica - 0
+Ecuador - 
+Egipto - 
+El Salvador - 
+Emiratos Árabes Unidos - 
+Eritrea - 
+Eslovaquia - 
+Eslovenia - 
+España - 
+Estados Unidos - 1.390.000
+Estonia - 
+Eswatini - 
+Etiopía - 
+Filipinas - 
+Finlandia - 
+Fiyi - 
+Francia - 
+Gabón - 
+Gambia - 
+Georgia - 
+Ghana - 
+Granada - 0
+Grecia - 
+Guatemala - 
+Guinea - 
+Guinea-Bisáu - 
+Guinea Ecuatorial - 
+Guyana - 
+Haití - 
+Honduras - 
+Hungría - 
+India - 1.450.000
+Indonesia - 
+Irak - 
+Irán - 575.000
+Irlanda - 
+Islandia - 
+Islas Marshall - 0
+Islas Salomón - 0
+Israel - 
+Italia - 
+Jamaica - 
+Japón - 
+Jordania - 
+Kazajistán - 
+Kenia - 
+Kirguistán - 
+Kiribati - 0
+Kuwait - 
+Laos - 
+Lesoto - 
+Letonia - 
+Líbano - 
+Liberia - 
+Libia - 
+Liechtenstein - 
+Lituania - 
+Luxemburgo - 
+Madagascar - 
+Malasia - 
+Malaui - 
+Maldivas - 
+Malí - 
+Malta - 
+Marruecos - 
+Mauricio - 
+Mauritania - 
+México - 
+Micronesia - 0
+Moldavia - 
+Mónaco - 
+Mongolia - 
+Montenegro - 
+Mozambique - 
+Namibia - 
+Nauru - 0
+Nepal - 
+Nicaragua - 
+Níger - 
+Nigeria - 
+Noruega - 
+Nueva Zelanda - 
+Omán - 
+Países Bajos - 
+Pakistán - 654.000
+Palaos - 0
+Panamá - 
+Papúa Nueva Guinea - 
+Paraguay - 
+Perú - 
+Polonia - 
+Portugal - 
+Reino Unido - 
+República Centroafricana - 
+República Checa - 
+República del Congo - 
+República Democrática del Congo - 
+República Dominicana - 
+República Sudafricana - 
+Ruanda - 
+Rumania - 
+Rusia - 830.900
+Samoa - 0
+San Cristóbal y Nieves - 
+San Marino - 
+San Vicente y las Granadinas - 0
+Santa Lucía - 0
+Santo Tomé y Príncipe - 
+Senegal - 
+Serbia - 
+Seychelles - 
+Sierra Leona - 
+Singapur - 
+Siria - 
+Somalia - 
+Sri Lanka - 
+Suazilandia (Eswatini) - 
+Sudán - 
+Sudán del Sur - 
+Suecia - 
+Suiza - 
+Surinam - 
+Tailandia - 
+Tanzania - 
+Tayikistán - 
+Timor Oriental - 
+Togo - 
+Tonga - 
+Trinidad y Tobago - 
+Túnez - 
+Turkmenistán - 
+Turquía - 
+Tuvalu - 0
+Ucrania - 
+Uganda - 
+Uruguay - 
+Uzbekistán - 
+Vanuatu - 
+Venezuela - 
+Vietnam - 
+Yemen - 
+Yibuti - 
+Zambia - 
+Zimbabue - 
+
+Fuentes: 
+
+* Wikipedia (en español) -> https://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_tama%C3%B1o_de_sus_fuerzas_armadas
+* Global security website (en inglés) -> https://www.globalsecurity.org/
+* World Military Guide (en inglés) -> https://www.globalsecurity.org/military/world/index.html
+* Fuerzas Armadas del Mundo -> http://ordendebatallainternacional.blogspot.com/2015/10/indice.html
