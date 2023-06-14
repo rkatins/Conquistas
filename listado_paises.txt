@@ -1,201 +1,214 @@
 Afganistán - 300.000
 Albania - 8.000
-Alemania - 80.000
+Alemania - 184.000
 Andorra - 0
-Angola - 
-Antigua y Barbuda - 
-Arabia Saudita - 
-Argelia - 
-Argentina - 
-Armenia - 
-Australia - 
-Austria - 
-Azerbaiyán - 
-Bahamas - 
-Bangladés - 
-Barbados - 
-Baréin - 
-Bélgica - 
-Belice - 
-Benín - 
-Bielorrusia - 
-Birmania (Myanmar) - 
-Bolivia - 
-Bosnia y Herzegovina - 
-Botsuana - 
-Brasil - 
-Brunéi - 
-Bulgaria - 
-Burkina Faso - 
-Burundi - 
-Bután - 
-Cabo Verde - 
-Camboya - 
-Camerún - 
-Canadá - 
-Catar - 
-Chad - 
-Chile - 
+Angola - 107.000
+Antigua y Barbuda - 245
+Arabia Saudita - 225.000
+Argelia - 130.000
+Argentina - 83.000
+Armenia - 45.000
+Australia - 60.500
+Austria - 23.000
+Azerbaiyán - 65.000
+Bahamas - 1.100
+Bangladés - 165.000
+Baréin - 20.000
+Bélgica - 26.000
+Belice - 2.000
+Benín - 5.000
+Bielorrusia - 45.000
+Birmania (Myanmar) - 400.000
+Bolivia - 60.000
+Bosnia y Herzegovina - 9.000
+Botsuana - 9.000
+Brasil - 360.000
+Brunéi - 218.500
+Bulgaria - 25.000
+Burkina Faso - 12.000
+Burundi - 3.000
+Bután - 8.000 
+Camboya - 100.000
+Camerún - 40.000
+Canadá - 70.000
+Catar - 66.550
+Chad - 35.000
+Chile - 80.000
 China - 2.000.000
-Chipre - 
+Chipre - 12.750
 Ciudad del Vaticano - 0
-Colombia - 
-Comoras - 
+Colombia - 360.000
+Comoras - 2.000
 Corea del Norte - 1.200.000
-Corea del Sur - 
-Costa de Marfil - 
-Costa Rica - 
-Croacia - 
-Cuba - 
-Dinamarca - 
+Corea del Sur - 555.000
+Costa de Marfil - 25.000
+Costa Rica - 0
+Croacia - 15.000
+Cuba - 50.000
+Dinamarca - 16.000
 Dominica - 0
-Ecuador - 
-Egipto - 
-El Salvador - 
-Emiratos Árabes Unidos - 
-Eritrea - 
-Eslovaquia - 
-Eslovenia - 
-España - 
+Ecuador - 70.000
+Egipto - 440.000
+El Salvador - 21.000
+Emiratos Árabes Unidos - 65.000
+Eritrea - 175.000
+Eslovaquia - 13.000
+Eslovenia - 7.000
+España - 120.000
 Estados Unidos - 1.390.000
-Estonia - 
-Eswatini - 
-Etiopía - 
-Filipinas - 
-Finlandia - 
-Fiyi - 
-Francia - 
-Gabón - 
-Gambia - 
-Georgia - 
-Ghana - 
+Estados Federados de Micronesia - 0
+Estonia - 4.000
+Etiopía - 150.000
+Filipinas - 101.000
+Finlandia - 24.000
+Fiyi - 3.000
+Francia - 205.000
+Gabón - 6.500
+Gambia - 1.800
+Georgia - 61.000
+Ghana - 14.000
 Granada - 0
-Grecia - 
-Guatemala - 
-Guinea - 
-Guinea-Bisáu - 
-Guinea Ecuatorial - 
-Guyana - 
-Haití - 
-Honduras - 
-Hungría - 
+Grecia - 130.000
+Guatemala - 21.500
+Guinea - 45.000
+Guinea-Bisáu - 4.000
+Guinea Ecuatorial - 2.400 
+Haití - 17.700
+Honduras - 16.000
+Hungría - 23.000
 India - 1.450.000
-Indonesia - 
-Irak - 
+Indonesia - 400.000
+Irak - 200.000
 Irán - 575.000
-Irlanda - 
-Islandia - 
+Irlanda - 8.700
+Islandia - 0
 Islas Marshall - 0
 Islas Salomón - 0
-Israel - 
-Italia - 
-Jamaica - 
-Japón - 
-Jordania - 
-Kazajistán - 
-Kenia - 
-Kirguistán - 
+Israel - 173.000
+Italia - 170.000
+Jamaica - 1.470.000
+Japón - 240.000
+Jordania - 90.000
+Kazajistán - 40.200
+Kenia - 35.000
+Kirguistán - 15.000
 Kiribati - 0
-Kuwait - 
-Laos - 
-Lesoto - 
-Letonia - 
-Líbano - 
-Liberia - 
-Libia - 
-Liechtenstein - 
-Lituania - 
-Luxemburgo - 
-Madagascar - 
-Malasia - 
-Malaui - 
-Maldivas - 
-Malí - 
-Malta - 
-Marruecos - 
-Mauricio - 
-Mauritania - 
-México - 
-Micronesia - 0
-Moldavia - 
-Mónaco - 
-Mongolia - 
+Kuwait - 17.000
+Laos - 30.000
+Lesoto - 6.800
+Letonia - 6.500
+Líbano - 80.000
+Liberia - 2.000
+Libia - 100.000
+Liechtenstein - 0
+Lituania - 16.000
+Luxemburgo - 1.000
+Madagascar - 13.000
+Malasia - 85.000
+Malaui - 25.500
+Malí - 18.000
+Malta - 1.700
+Marruecos - 200.000
+Mauricio - 0
+Mauritania - 31.000
+México - 300.000
+Moldavia - 6.000
+Mónaco - 0
+Mongolia - 35.000
 Montenegro - 
-Mozambique - 
-Namibia - 
+Mozambique - 12.000
+Namibia - 12.500
 Nauru - 0
-Nepal - 
-Nicaragua - 
-Níger - 
-Nigeria - 
-Noruega - 
-Nueva Zelanda - 
-Omán - 
-Países Bajos - 
+Nepal - 95.000
+Nicaragua - 24.000
+Níger - 10.000
+Nigeria - 135.000
+Noruega - 23.000
+Nueva Zelanda - 9.600
+Omán - 40.000
+Países Bajos - 35.000
 Pakistán - 654.000
 Palaos - 0
-Panamá - 
-Papúa Nueva Guinea - 
-Paraguay - 
-Perú - 
-Polonia - 
-Portugal - 
-Reino Unido - 
-República Centroafricana - 
-República Checa - 
-República del Congo - 
-República Democrática del Congo - 
-República Dominicana - 
-República Sudafricana - 
-Ruanda - 
-Rumania - 
+Panamá - 0
+Papúa Nueva Guinea - 2.750
+Paraguay - 20.000
+Perú - 95.00
+Polonia - 120.000
+Portugal - 27.000
+Reino Unido - 194.000
+República Centroafricana - 10.000
+República Checa - 26.000
+República de Cabo Verde (Cabo Verde) - 1.300
+República del Congo - 12.000
+República Democrática del Congo - 140.000
+República Dominicana - 60.000
+República de Macedonia del Norte (Macedonia del Norte) - 9.000 
+República de Kosovo (Kosovo o Kósovo) - 5.000
+República Sudafricana (Sudafrica) - 40.200
+Rumania - 67.000
 Rusia - 830.900
 Samoa - 0
-San Cristóbal y Nieves - 
-San Marino - 
+San Cristóbal y Nieves - 500
 San Vicente y las Granadinas - 0
-Santa Lucía - 0
-Santo Tomé y Príncipe - 
-Senegal - 
-Serbia - 
-Seychelles - 
-Sierra Leona - 
-Singapur - 
-Siria - 
-Somalia - 
-Sri Lanka - 
-Suazilandia (Eswatini) - 
-Sudán - 
-Sudán del Sur - 
-Suecia - 
-Suiza - 
-Surinam - 
-Tailandia - 
-Tanzania - 
-Tayikistán - 
-Timor Oriental - 
-Togo - 
-Tonga - 
-Trinidad y Tobago - 
-Túnez - 
-Turkmenistán - 
-Turquía - 
+Santa Lucía - 0 
+Senegal - 17.000
+Serbia - 25.000
+Sierra Leona - 13.000
+Singapur - 60.000
+Siria - 100.000
+Somalia - 17.500
+Sri Lanka - 250.000
+Suazilandia (Eswatini o Swazilandia) - 3.000
+Sudán - 100.000
+Sudán del Sur - 175.000
+Suecia - 16.000
+Suiza - 24.000
+Tailandia - 350.000
+Tanzania - 26.000
+Tayikistán - 9.500
+Togo - 0
+Tonga - 0 
+Túnez - 90.000
+Turkmenistán - 30.000
+Turquía - 425.000
 Tuvalu - 0
-Ucrania - 
-Uganda - 
-Uruguay - 
-Uzbekistán - 
-Vanuatu - 
-Venezuela - 
-Vietnam - 
-Yemen - 
-Yibuti - 
-Zambia - 
-Zimbabue - 
+Ucrania - 200.000
+Uganda - 47.000
+Uruguay - 22.000
+Uzbekistán - 55.000
+Vanuatu - 0
+Venezuela - 137.500
+Vietnam - 470.000
+Yemen - 45.000
+Yibuti - 13.000
+Zambia - 16.500
+Zimbabue - 30.000
+
+Esxtra:
+Taiwán - Cuenta al ejercito de China.
+
+Micronesia - Segun la informacion obtenida, Micronesia es una region o compuestos de islas de una zona, como se tiene pensado iddentificar por cada pais se contara cada una de las islas/repúblicas/paises que componen a esta.
+
+Cabo Verde - Segun la informacion obtenida, Cabo Verde es una region o compuestos de islas/municipios de una zona, como se tiene pensado iddentificar por cada pais se contara cada una de las islas/repúblicas/paises que componen a esta.
+
+Guyana - Segun la informacion obtenida, Guyana es unaregion monodepartamental francesa.
+
+Yibuti, mayormente conociddo como Djiouti o Franco de Djibouti, cuenta con su propio ejercito y acoge multiples bases militares extranjeras.
+
+No se encontro cifras/informacion militar de los siguientes paises, estos han sido descartados de la lista:
+Tonga, Togo, República de Surinam, Ruanda, Trinidad y Tobago, Seychelles, Timor Oriental, San Marino, Santo Tomé y Príncipe, Maldivas y Barbados.
+
+	PD: Se han eliminado de la lista a diferencia de aquellos que tienen un 0, esto se debe a que estos si tienen informacion pero no contempla que tengan ejercito.
+
+Países sin ejército permanente, pero con fuerza militar limitada:
+Costa Rica, Islandia, Bandera, Mónaco Mónaco, Panamá y Vanuatu
+Estos son considerados con un ejercito 0.
+
+---
 
 Fuentes: 
-
 * Wikipedia (en español) -> https://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_tama%C3%B1o_de_sus_fuerzas_armadas
 * Global security website (en inglés) -> https://www.globalsecurity.org/
 * World Military Guide (en inglés) -> https://www.globalsecurity.org/military/world/index.html
 * Fuerzas Armadas del Mundo -> http://ordendebatallainternacional.blogspot.com/2015/10/indice.html
+* frwkiki -> https://es.frwiki.wiki/
