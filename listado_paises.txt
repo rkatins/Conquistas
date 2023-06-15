@@ -204,6 +204,9 @@ Países sin ejército permanente, pero con fuerza militar limitada:
 Costa Rica, Islandia, Bandera, Mónaco Mónaco, Panamá y Vanuatu
 Estos son considerados con un ejercito 0.
 
+Australia, Bahamas, Baréin, Brunéi
+Se incluiran los paises mas cercanos a estos como paises vecinos.
+
 ---
 
 Fuentes: 
