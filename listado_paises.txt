@@ -211,6 +211,8 @@ Belice no forma parte de Guatemala, pero tienen la misma frontera. Aunque no for
 
 Monaco al ser un enclave de otro pais, como es el caso de Francia, se indicara como pais mas cercano a este.
 
+Singapur (ID: 144) es una ciudad-estado ubicada en una isla y no tiene fronteras terrestres con ningún país. Sin embargo, se encuentra en estrecha proximidad con Malasia (ID: 101), que limita con Singapur por tierra y está conectado a través de puentes y carreteras.
+
 Si como ID(s) de pais(es) cercano(s), se indica 0, es muy probable que se trate de una isla sin pais(es) cercano(s) o que no limite con otro pais.
 
 ---
