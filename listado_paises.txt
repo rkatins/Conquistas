@@ -184,7 +184,7 @@ Yibuti - 13.000
 Zambia - 16.500
 Zimbabue - 30.000
 
-Esxtra:
+Extra:
 Taiwán - Cuenta al ejercito de China.
 
 Micronesia - Segun la informacion obtenida, Micronesia es una region o compuestos de islas de una zona, como se tiene pensado iddentificar por cada pais se contara cada una de las islas/repúblicas/paises que componen a esta.
@@ -206,6 +206,12 @@ Estos son considerados con un ejercito 0.
 
 Australia, Bahamas, Baréin, Brunéi
 Se incluiran los paises mas cercanos a estos como paises vecinos.
+
+Belice no forma parte de Guatemala, pero tienen la misma frontera. Aunque no forma parte de Guatemala tiene la misma frontera, es algo raro.
+
+Monaco al ser un enclave de otro pais, como es el caso de Francia, se indicara como pais mas cercano a este.
+
+Si como ID(s) de pais(es) cercano(s), se indica 0, es muy probable que se trate de una isla sin pais(es) cercano(s) o que no limite con otro pais.
 
 ---
 
