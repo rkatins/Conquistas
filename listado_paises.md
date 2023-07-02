@@ -1,188 +1,190 @@
-1;Afganistán
-2;Albania
-3;Alemania
-4;Andorra
-5;Angola
-6;Antigua y Barbuda
-7;Arabia Saudita
-8;Argelia
-9;Argentina
-10;Armenia
-11;Australia
-12;Austria
-13;Azerbaiyán
-14;Bahamas
-15;Bangladés
-16;Baréin
-17;Bélgica
-18;Belice
-19;Benín
-20;Bielorrusia
-21;Birmania (Myanmar)
-22;Bolivia
-23;Bosnia y Herzegovina
-24;Botsuana
-25;Brasil
-26;Brunéi
-27;Bulgaria
-28;Burkina Faso
-29;Burundi
-30;Bután
-31;Camboya
-32;Camer£n
-33;Canadá
-34;Catar
-35;Chad
-36;Chile
-37;China
-38;Chipre
-39;Ciudad del Vaticano
-40;Colombia
-41;Comoras
-42;Corea del Norte
-43;Corea del Sur
-44;Costa de Marfil
-45;Costa Rica
-46;Croacia
-47;Cuba
-48;Dinamarca
-49;Dominica
-50;Ecuador
-51;Egipto
-52;El Salvador
-53;Emiratos µrabes Unidos
-54;Eritrea
-55;Eslovaquia
-56;Eslovenia
-57;Espa¤a
-58;Estados Unidos
-59;Estados Federados de Micronesia
-60;Estonia
-61;Etiopía
-62;Filipinas
-63;Finlandia
-64;Fiyi
-65;Francia
-66;Gabón
-67;Gambia
-68;Georgia
-69;Ghana
-70;Granada
-71;Grecia
-72;Guatemala
-73;Guinea
-74;Guinea-Bisáu
-75;Guinea Ecuatorial
-76;Haití
-77;Honduras
-78;Hungría
-79;India
-80;Indonesia
-81;Irak
-82;Irán
-83;Irlanda
-84;Islandia
-85;Islas Marshall
-86;Islas Salomón
-87;Israel
-88;Italia
-89;Jamaica
-90;Japón
-91;Jordania
-92;Kazajistán
-93;Kenia
-94;Kirguistán
-95;Kiribati
-96;Kuwait
-97;Laos
-98;Lesoto
-99;Letonia
-100;Líbano
-101;Liberia
-102;Libia
-103;Liechtenstein
-104;Lituania
-105;Luxemburgo
-106;Madagascar
-107;Malasia
-108;Malaui
-109;Malí
-110;Malta
-111;Marruecos
-112;Mauricio
-113;Mauritania
-114;México
-115;Moldavia
-116;Mónaco
-117;Mongolia
-118;Montenegro 
-119;Mozambique
-120;Namibia
-121;Nauru
-122;Nepal
-123;Nicaragua
-124;Níger
-125;Nigeria
-126;Noruega
-127;Nueva Zelanda
-128;Omán
-129;Países Bajos
-130;Pakistán
-131;Palaos
-132;Panamá
-133;Pap£a Nueva Guinea
-134;Paraguay
-135;Per£
-136;Polonia
-137;Portugal
-138;Reino Unido
-139;Rep£blica Centroafricana
-140;Rep£blica Checa
-141;Rep£blica de Cabo Verde (Cabo Verde)
-142;Rep£blica del Congo
-143;Rep£blica Democrática del Congo
-144;Rep£blica Dominicana
-145;Rep£blica de Macedonia del Norte (Macedoniadel Norte)
-146;Rep£blica de Kosovo (Kosovo o Kósovo)
-147;Rep£blica Sudafricana (Sudafrica)
-148;Rumania
-149;Rusia
-150;Samoa
-151;San Cristóbal y Nieves
-152;San Vicente y las Granadinas
-153;Santa Lucía
-154;Senegal
-155;Serbia
-156;Sierra Leona
-157;Singapur
-158;Siria
-159;Somalia
-160;Sri Lanka
-161;Suazilandia (Eswatini o Swazilandia)
-162;Sudán
-163;Sudán del Sur
-164;Suecia
-165;Suiza
-166;Tailandia
-167;Tanzania
-168;Tayikistán
-169;Togo
-170;Tonga
-171;T£nez
-172;Turkmenistán
-173;Turquía
-174;Tuvalu
-175;Ucrania
-176;Uganda
-177;Uruguay
-178;Uzbekistán
-179;Vanuatu
-180;Venezuela
-181;Vietnam
-182;Yemen
-183;Yibuti
-184;Zambia
-185;Zimbabue
+|       |       |
+| ----- | ----- |
+| 1 | Afganistán |
+| 2 | Albania |
+| 3 | Alemania |
+| 4 | Andorra |
+| 5 | Angola |
+| 6 | Antigua y Barbuda |
+| 7 | Arabia Saudita |
+| 8 | Argelia |
+| 9 | Argentina |
+| 10 | Armenia |
+| 11 | Australia |
+| 12 | Austria |
+| 13 | Azerbaiyán |
+| 14 | Bahamas |
+| 15 | Bangladés |
+| 16 | Baréin |
+| 17 | Bélgica |
+| 18 | Belice |
+| 19 | Benín |
+| 20 | Bielorrusia |
+| 21 | Birmania (Myanmar) |
+| 22 | Bolivia |
+| 23 | Bosnia y Herzegovina |
+| 24 | Botsuana |
+| 25 | Brasil |
+| 26 | Brunéi |
+| 27 | Bulgaria |
+| 28 | Burkina Faso |
+| 29 | Burundi |
+| 30 | Bután |
+| 31 | Camboya |
+| 32 | Camerún |
+| 33 | Canadá |
+| 34 | Catar |
+| 35 | Chad |
+| 36 | Chile |
+| 37 | China |
+| 38 | Chipre |
+| 39 | Ciudad del Vaticano |
+| 40 | Colombia |
+| 41 | Comoras |
+| 42 | Corea del Norte |
+| 43 | Corea del Sur |
+| 44 | Costa de Marfil |
+| 45 | Costa Rica |
+| 46 | Croacia |
+| 47 | Cuba |
+| 48 | Dinamarca |
+| 49 | Dominica |
+| 50 | Ecuador |
+| 51 | Egipto |
+| 52 | El Salvador |
+| 53 | Emiratos µrabes Unidos |
+| 54 | Eritrea |
+| 55 | Eslovaquia |
+| 56 | Eslovenia |
+| 57 | Espa¤a |
+| 58 | Estados Unidos |
+| 59 | Estados Federados de Micronesia |
+| 60 | Estonia |
+| 61 | Etiopía |
+| 62 | Filipinas |
+| 63 | Finlandia |
+| 64 | Fiyi |
+| 65 | Francia |
+| 66 | Gabón |
+| 67 | Gambia |
+| 68 | Georgia |
+| 69 | Ghana |
+| 70 | Granada |
+| 71 | Grecia |
+| 72 | Guatemala |
+| 73 | Guinea |
+| 74 | Guinea-Bisáu |
+| 75 | Guinea Ecuatorial |
+| 76 | Haití |
+| 77 | Honduras |
+| 78 | Hungría |
+| 79 | India |
+| 80 | Indonesia |
+| 81 | Irak |
+| 82 | Irán |
+| 83 | Irlanda |
+| 84 | Islandia |
+| 85 | Islas Marshall |
+| 86 | Islas Salomón |
+| 87 | Israel |
+| 88 | Italia |
+| 89 | Jamaica |
+| 90 | Japón |
+| 91 | Jordania |
+| 92 | Kazajistán |
+| 93 | Kenia |
+| 94 | Kirguistán |
+| 95 | Kiribati |
+| 96 | Kuwait |
+| 97 | Laos |
+| 98 | Lesoto |
+| 99 | Letonia |
+| 100 | Líbano |
+| 101 | Liberia |
+| 102 | Libia |
+| 103 | Liechtenstein |
+| 104 | Lituania |
+| 105 | Luxemburgo |
+| 106 | Madagascar |
+| 107 | Malasia |
+| 108 | Malaui |
+| 109 | Malí |
+| 110 | Malta |
+| 111 | Marruecos |
+| 112 | Mauricio |
+| 113 | Mauritania |
+| 114 | México |
+| 115 | Moldavia |
+| 116 | Mónaco |
+| 117 | Mongolia |
+| 118 | Montenegro  |
+| 119 | Mozambique |
+| 120 | Namibia |
+| 121 | Nauru |
+| 122 | Nepal |
+| 123 | Nicaragua |
+| 124 | Níger |
+| 125 | Nigeria |
+| 126 | Noruega |
+| 127 | Nueva Zelanda |
+| 128 | Omán |
+| 129 | Países Bajos |
+| 130 | Pakistán |
+| 131 | Palaos |
+| 132 | Panamá |
+| 133 | Papúa Nueva Guinea |
+| 134 | Paraguay |
+| 135 | Perú |
+| 136 | Polonia |
+| 137 | Portugal |
+| 138 | Reino Unido |
+| 139 | República Centroafricana |
+| 140 | República Checa |
+| 141 | República de Cabo Verde (Cabo Verde) |
+| 142 | República del Congo |
+| 143 | República Democrática del Congo |
+| 144 | República Dominicana |
+| 145 | República de Macedonia del Norte (Macedoniadel Norte) |
+| 146 | República de Kosovo (Kosovo o Kósovo) |
+| 147 | República Sudafricana (Sudafrica) |
+| 148 | Rumania |
+| 149 | Rusia |
+| 150 | Samoa |
+| 151 | San Cristóbal y Nieves |
+| 152 | San Vicente y las Granadinas |
+| 153 | Santa Lucía |
+| 154 | Senegal |
+| 155 | Serbia |
+| 156 | Sierra Leona |
+| 157 | Singapur |
+| 158 | Siria |
+| 159 | Somalia |
+| 160 | Sri Lanka |
+| 161 | Suazilandia (Eswatini o Swazilandia) |
+| 162 | Sudán |
+| 163 | Sudán del Sur |
+| 164 | Suecia |
+| 165 | Suiza |
+| 166 | Tailandia |
+| 167 | Tanzania |
+| 168 | Tayikistán |
+| 169 | Togo |
+| 170 | Tonga |
+| 171 | Túnez |
+| 172 | Turkmenistán |
+| 173 | Turquía |
+| 174 | Tuvalu |
+| 175 | Ucrania |
+| 176 | Uganda |
+| 177 | Uruguay |
+| 178 | Uzbekistán |
+| 179 | Vanuatu |
+| 180 | Venezuela |
+| 181 | Vietnam |
+| 182 | Yemen |
+| 183 | Yibuti |
+| 184 | Zambia |
+| 185 | Zimbabue |
 
 Extra:
 Taiwán - Cuenta al ejercito de China.
@@ -198,7 +200,7 @@ Yibuti, mayormente conociddo como Djiouti o Franco de Djibouti, cuenta con su pr
 No se encontro cifras/informacion militar de los siguientes paises, estos han sido descartados de la lista:
 Tonga, Togo, República de Surinam, Ruanda, Trinidad y Tobago, Seychelles, Timor Oriental, San Marino, Santo Tomé y Príncipe, Maldivas y Barbados.
 
-	PD: Se han eliminado de la lista a diferencia de aquellos que tienen un 0, esto se debe a que estos si tienen informacion pero no contempla que tengan ejercito.
+· PD: Se han eliminado de la lista a diferencia de aquellos que tienen un 0, esto se debe a que estos si tienen informacion pero no contempla que tengan ejercito.
 
 Australia, Bahamas, Baréin, Brunéi
 Se incluiran los paises mas cercanos a estos como paises vecinos.
@@ -216,7 +218,9 @@ Costa Rica, Islandia, Bandera, Mónaco Mónaco, Panamá y Vanuatu
 Estos son considerados con un ejercito 0.
 
 ---
+
 Si alguien añade nuevos paises, que lo escriba al final de la lista de paises junto con el numero identificativo para la lista junto con el sufijo -> (NUEVO)
+
 ---
 
 Fuentes: 
