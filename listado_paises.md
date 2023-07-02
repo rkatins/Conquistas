@@ -211,6 +211,10 @@ Monaco al ser un enclave de otro pais, como es el caso de Francia, se indicara c
 
 Singapur (ID: 144) es una ciudad-estado ubicada en una isla y no tiene fronteras terrestres con ningún país. Sin embargo, se encuentra en estrecha proximidad con Malasia (ID: 101), que limita con Singapur por tierra y está conectado a través de puentes y carreteras.
 
+Australia (ID: 11) es un país ubicado en Oceanía y no comparte fronteras terrestres con ningún otro país. Sin embargo, está rodeado por el océano y limita con varios países a través del mar.
+
+Estados Federados de Micronesia (ID: 59) no tiene fronteras terrestres con otros países, ya que es un archipiélago ubicado en el océano Pacífico. Sin embargo, comparte aguas marítimas con varios países de la región.
+
 Si como ID(s) de pais(es) cercano(s), se indica 0, es muy probable que se trate de una isla sin pais(es) cercano(s) o que no limite con otro pais.
 
 Países sin ejército permanente, pero con fuerza militar limitada:
@@ -219,7 +223,8 @@ Estos son considerados con un ejercito 0.
 
 ---
 
-Si alguien añade nuevos paises, que lo escriba al final de la lista de paises junto con el numero identificativo para la lista junto con el sufijo -> (NUEVO)
+Si alguien añade nuevos paises, que lo escriba al final de la lista de paises junto con el numero identificativo para la lista junto con el sufijo 
+``` -> (NUEVO)```
 
 ---
 
