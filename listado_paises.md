@@ -215,6 +215,20 @@ Australia (ID: 11) es un país ubicado en Oceanía y no comparte fronteras terre
 
 Estados Federados de Micronesia (ID: 59) no tiene fronteras terrestres con otros países, ya que es un archipiélago ubicado en el océano Pacífico. Sin embargo, comparte aguas marítimas con varios países de la región.
 
+Fiji (ID: 63) no limita con ningún país. Es un archipiélago en el océano Pacífico y no comparte fronteras terrestres con ninguna nación.
+
+Islandia (ID: 84) es una isla en el océano Atlántico Norte y no limita con ningún país.
+
+Las Islas Marshall (ID: 85) son un país insular ubicado en el océano Pacífico. No limita con ningún otro país.
+
+Las Islas Salomón (ID: 86) son un país insular ubicado en el océano Pacífico. No limita con ningún otro país.
+
+Jamaica (ID: 89) es una isla ubicada en el mar Caribe, por lo que no comparte fronteras terrestres con ningún país.
+
+Japón (ID: 90) es un archipiélago situado en el océano Pacífico, y no comparte fronteras terrestres con ningún país. Sin embargo, está ubicado cerca de varios países en la región de Asia Oriental
+
+Granada (ID: 70) es un país insular del Caribe y no comparte fronteras terrestres con ningún otro país.
+
 Si como ID(s) de pais(es) cercano(s), se indica 0, es muy probable que se trate de una isla sin pais(es) cercano(s) o que no limite con otro pais.
 
 Países sin ejército permanente, pero con fuerza militar limitada:
