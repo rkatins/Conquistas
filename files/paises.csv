@@ -1,185 +1,185 @@
-1;Afganistán
-2;Albania
-3;Alemania
-4;Andorra
-5;Angola
-6;Antigua y Barbuda
-7;Arabia Saudita
-8;Argelia;130000;
-9;Argentina;83000;
-10;Armenia;45000;
-11;Australia;60500;
-12;Austria;23000;
-13;Azerbaiyán;65000;
-14;Bahamas;1100;
-15;Bangladés;165000;
-16;Baréin;20000;
-17;Bélgica;26000;
-18;Belice;2000;
-19;Benín;5000;
-20;Bielorrusia;45000;
-21;Birmania (Myanmar);400000;
-22;Bolivia;60000;
-23;Bosnia y Herzegovina;9000;
-24;Botsuana;9000;
-25;Brasil;360000;
-26;Brunéi;218500;
-27;Bulgaria;25000;
-28;Burkina Faso;12000;
-29;Burundi;3000;
-30;Bután;8000;
-31;Camboya;100000;
-32;Camerún;40000;
-33;Canadá;70000;
-34;Catar;66550;
-35;Chad;35000;
-36;Chile;80000;
-37;China;2000000;
-38;Chipre;12750;
-39;Ciudad del Vaticano;0;
-40;Colombia;360000;
-41;Comoras;2000;
-42;Corea del Norte;1200000;
-43;Corea del Sur;555000;
-44;Costa de Marfil;25000;
-45;Costa Rica;0;
-46;Croacia;15000;
-47;Cuba;50000;
-48;Dinamarca;16000;
-49;Dominica;0;
-50;Ecuador;70000;
-51;Egipto;440000;
-52;El Salvador;21000;
-53;Emiratos Árabes Unidos;65000;
-54;Eritrea;175000;
-55;Eslovaquia;13000;
-56;Eslovenia;7000;
-57;España;120000;
-58;Estados Unidos;1390000
-59;Estados Federados de Micronesia;0;
-60;Estonia;4000;
-61;Etiopía;150000;
-62;Filipinas;101000;
-63;Finlandia;24000;
-64;Fiyi;3000;
-65;Francia;205000;
-66;Gabón;6500;
-67;Gambia;1800;
-68;Georgia;61000;
-69;Ghana;14000;
-70;Granada;0;
-71;Grecia;130000;
-72;Guatemala;21500;
-73;Guinea;45000;
-74;Guinea-Bisáu;4000;
-75;Guinea Ecuatorial;2400;
-76;Haití;17700;
-77;Honduras;16000;
-78;Hungría;23000;
-79;India;1450000;
-80;Indonesia;400000;
-81;Irak;200000;
-82;Irán;575000;
-83;Irlanda;8700;
-84;Islandia;0;
-85;Islas Marshall;0;
-86;Islas Salomón;0;
-87;Israel;173000;
-88;Italia;170000;
-89;Jamaica;1470000;
-90;Japón;240000;
-91;Jordania;90000;
-92;Kazajistán;40200;
-93;Kenia;35000;
-94;Kirguistán;15000;
-95;Kiribati;0;
-96;Kuwait;17000;
-97;Laos;30000;
-98;Lesoto;6800;
-99;Letonia;6500;
-100;Líbano;80000;
-101;Liberia;2000;
-102;Libia;100000;
-103;Liechtenstein;0;
-104;Lituania;16000;
-105;Luxemburgo;1000;
-106;Madagascar;13000;
-107;Malasia;85000;
-108;Malaui;25500;
-109;Malí;18000;
-110;Malta;1700;
-111;Marruecos;200000;
-112;Mauricio;0;
-113;Mauritania;31000;
-114;México;300000;
-115;Moldavia;6000;
-116;Mónaco;0;
-117;Mongolia;35000;
-118;Montenegro ;2400;
-119;Mozambique;12000;
-120;Namibia;12500;
-121;Nauru;0;
-122;Nepal;95000;
-123;Nicaragua;24000;
-124;Níger;10000;
-125;Nigeria;135000;
-126;Noruega;23000;
-127;Nueva Zelanda;9600;
-128;Omán;40000;
-129;Países Bajos;35000;
-130;Pakistán;654000;
-131;Palaos;0;
-132;Panamá;33000;
-133;Papúa Nueva Guinea;2750;
-134;Paraguay;20000;
-135;Perú;9500;
-136;Polonia;120000;
-137;Portugal;27000;
-138;Reino Unido;19400
-139;República Centroafricana;10000;
-140;República Checa;26000;
-141;República de Cabo Verde (Cabo Verde);1300;
+1;Afganistán;0;82;130;172;178;168;37
+2;Albania;16500;71;145;118;155
+3;Alemania;1100000;12;17;48;65;105;129;136;140;165
+4;Andorra;0;57;65
+5;Angola;107000;143;184;120
+6;Antigua y Barbuda;250;0
+7;Arabia Saudita;225000;53;81;91;96;128;34;182
+8;Argelia;130000;171;102;124;109;113;111
+9;Argentina;83000;36;22;134;25;177
+10;Armenia;45000;68;13;82;173
+11;Australia;60500;80;133;164;127
+12;Austria;23000;3;140;55;78;56;88;165;103
+13;Azerbaiyán;65000;149;68;10;82;172
+14;Bahamas;1100;0
+15;Bangladés;165000;79;21
+16;Baréin;20000;7;34
+17;Bélgica;26000;129;3;105;65
+18;Belice;2000;114;72
+19;Benín;5000;28;124;125;169
+20;Bielorrusia;45000;99;104;136;149;175
+21;Birmania (Myanmar);400000;15;37;79;97;166
+22;Bolivia;60000;9;25;36;134;135
+23;Bosnia y Herzegovina;9000;46;155
+24;Botsuana;9000;120;147;185
+25;Brasil;360000;9;22;40;77;134;135;159;177;180
+26;Brunéi;218500;107
+27;Bulgaria;25000;148;155;145;71;173
+28;Burkina Faso;12000;19;44;69;94;124;169
+29;Burundi;3000;143;148;167
+30;Bután;8000;37;79
+31;Camboya;100000;97;166;181
+32;Camerún;40000;35;66;75;125;139
+33;Canadá;70000;58
+34;Catar;66550;7;53;16
+35;Chad;35000;32;139;162;102;124;125
+36;Chile;80000;9;22;135
+37;China;2000000;1;30;21;79;92;42;94;97;117;122;130;149;168;181
+38;Chipre;12750;71;138
+39;Ciudad del Vaticano;0;88
+40;Colombia;360000;25;135;80;180;132
+41;Comoras;2000;106;119;157;167
+42;Corea del Norte;1200000;37;149;43
+43;Corea del Sur;555000;42
+44;Costa de Marfil;25000;28;69;73;101;109;75
+45;Costa Rica;0;123;132
+46;Croacia;15000;23;56;78;155;118
+47;Cuba;50000;58
+48;Dinamarca;16000;3
+49;Dominica;0;0
+50;Ecuador;70000;40;135
+51;Egipto;440000;87;102;162
+52;El Salvador;21000;72;77
+53;Emiratos Árabes Unidos;65000;7;128
+54;Eritrea;175000;61;162;183
+55;Eslovaquia;13000;12;140;78;136;175
+56;Eslovenia;7000;12;88;78;46
+57;España;120000;137;65;4
+58;Estados Unidos;139000;33;114
+59;Estados Federados de Micronesia;0;80;133;85;131
+60;Estonia;4000;149;99
+61;Etiopía;150000;54;183;159;93;163
+62;Filipinas;101000;80;108;181
+63;Finlandia;24000;126;165;149
+64;Fiyi;3000;0
+65;Francia;205000;4;17;57;88;105;116;3;165;138
+66;Gabón;6500;32;75;113
+67;Gambia;1800;154
+68;Georgia;61000;13;10;149;173
+69;Ghana;14000;44;28;169;19
+70;Granada;0;0
+71;Grecia;130000;2;27;145;173
+72;Guatemala;21500;18;52;77;114
+73;Guinea;45000;44;74;101;109;154;156
+74;Guinea-Bisáu;4000;73;154
+75;Guinea Ecuatorial;2400;32;66
+76;Haití;17700;144
+77;Honduras;16000;72;52;123
+78;Hungría;23000;12;55;175;148;155;46;56
+79;India;1450000;1;130;37;122;30;15;21;160
+80;Indonesia;400000;107;133;11;157
+81;Irak;200000;82;96;7;91;158;173
+82;Irán;575000;1;10;13;81;130;172;173
+83;Irlanda;8700;138
+84;Islandia;0;0
+85;Islas Marshall;0;0
+86;Islas Salomón;0;0
+87;Israel;173000;51;91;100;158
+88;Italia;170000;65;165;12;56;39
+89;Jamaica;1470000;47
+90;Japón;240000;149;37;42;43
+91;Jordania;90000;87;7;81;158
+92;Kazajistán;40200;149;37;94;178;172
+93;Kenia;35000;61;159;167;176
+94;Kirguistán;15000;37;92;168;178
+95;Kiribati;0;0
+96;Kuwait;17000;7;81
+97;Laos;30000;21;37;31;166;181
+98;Lesoto;6800;147
+99;Letonia;6500;60;104;149;20
+100;Líbano;80000;57;158
+101;Liberia;2000;73;44;156
+102;Libia;100000;171;8;124;35;162;51
+103;Liechtenstein;0;165;12
+104;Lituania;16000;99;20;136;149
+105;Luxemburgo;1000;17;65;3
+106;Madagascar;13000;119;41;112
+107;Malasia;85000;166;80;26;157
+108;Malaui;25500;167;119;184
+109;Malí;18000;8;124;28;44;73;154;113
+110;Malta;1700;88;171;102
+111;Marruecos;200000;8;57
+112;Mauricio;0;106
+113;Mauritania;31000;154;109;8
+114;México;300000;58;18;72
+115;Moldavia;6000;175;148
+116;Mónaco;0;65
+117;Mongolia;35000;149;37
+118;Montenegro ;2400;23;155;2;46
+119;Mozambique;12000;167;108;184;185;147;161
+120;Namibia;12500;5;24;147
+121;Nauru;0;0
+122;Nepal;95000;37;79
+123;Nicaragua;24000;77;45
+124;Níger;10000;8;102;35;125;19;28;109
+125;Nigeria;135000;19;124;35;32
+126;Noruega;23000;164;63
+127;Nueva Zelanda;9600;0
+128;Omán;40000;53;7;182
+129;Países Bajos;35000;3;17
+130;Pakistán;654000;1;37;79;82
+131;Palaos;0;0
+132;Panamá;33000;45;40
+133;Papúa Nueva Guinea;2750;80;86
+134;Paraguay;20000;9;22;25
+135;Perú;9500;50;40;25;22;36
+136;Polonia;120000;3;140;141;175;20;104;149
+137;Portugal;27000;57
+138;Reino Unido;1940;82;65;129;17;3;126
+139;República Centroafricana;10000;35;162;163;143;142;32
+140;República Checa;26000;3;136;55;12
+141;República de Cabo Verde (Cabo Verde);1300;0
 142;República del Congo;12000;
 143;República Democrática del Congo;140000;
 144;República Dominicana;60000;
-145;República de Macedonia del Norte (Macedonia del Norte);9000;
-146;República de Kosovo (Kosovo o Kósovo);5000;
-147;República Sudafricana (Sudafrica);40200;
-148;Rumania;67000;
-149;Rusia;830900;
-150;Samoa;0;
-151;San Cristóbal y Nieves;500;
-152;San Vicente y las Granadinas;0;
-153;Santa Lucía;0;
-154;Senegal;17000;
-155;Serbia;25000;
-156;Sierra Leona;13000;
-157;Singapur;60000;
-158;Siria;100000;
-159;Somalia;17500;
-160;Sri Lanka;250000;
-161;Suazilandia (Eswatini o Swazilandia);3000;
-162;Sudán;100000;
-163;Sudán del Sur;175000;
-164;Suecia;16000;
-165;Suiza;24000;
-166;Tailandia;350000;
-167;Tanzania;26000;
-168;Tayikistán;9500;
-169;Togo;0;
-170;Tonga;0;
-171;Túnez;90000;
-172;Turkmenistán;30000;
-173;Turquía;425000;
-174;Tuvalu;0;
-175;Ucrania;200000;
-176;Uganda;47000;
-177;Uruguay;22000;
-178;Uzbekistán;55000;
-179;Vanuatu;0;
-180;Venezuela;91000;
-181;Vietnam;300000;
-182;Yemen;69000;
-183;Yibuti;6000;
-184;Zambia;18000;
-185;Zimbabue;15000;
+145;República de Macedonia del Norte (Macedonia del Norte);9000;2;27;71;146;155
+146;República de Kosovo (Kosovo o Kósovo);5000;2;145;118;155
+147;República Sudafricana (Sudafrica);40200;24;161;98;119;120;185
+148;Rumania;67000;27;78;115;155;175
+149;Rusia;830900;13;20;37;60;63;68;92;42;99;104;117;126;136;175
+150;Samoa;0;0
+151;San Cristóbal y Nieves;500;0
+152;San Vicente y las Granadinas;0;0
+153;Santa Lucía;0;0
+154;Senegal;17000;113;109;73;74;67
+155;Serbia;25000;78;148;27;145;2;118;23
+156;Sierra Leona;13000;73;101
+157;Singapur;60000;0
+158;Siria;100000;173;81;91;87
+159;Somalia;17500;183;61;93
+160;Sri Lanka;250000;0
+161;Suazilandia (Eswatini o Swazilandia);3000;119;147
+162;Sudán;100000;51;102;35;139;163;61;54
+163;Sudán del Sur;175000;162;61;93;176;143;139
+164;Suecia;16000;126;63;48
+165;Suiza;24000;3;65;88;12;103
+166;Tailandia;350000;21;97;31;107
+167;Tanzania;26000;93;176;148;29;143;184;108;119
+168;Tayikistán;9500;1;37;94;178
+169;Togo;0;19;28;69
+170;Tonga;0;0
+171;Túnez;90000;8;102
+172;Turkmenistán;30000;1;82;92;178
+173;Turquía;425000;71;27;68;10;13;82;81;158
+174;Tuvalu;0;0
+175;Ucrania;200000;20;149;136;55;78;148;115
+176;Uganda;47000;163;93;167;150;143
+177;Uruguay;22000;25;9
+178;Uzbekistán;55000;92;172;168;94;1
+179;Vanuatu;0;0
+180;Venezuela;91000;25;40;77;173
+181;Vietnam;300000;37;97;31
+182;Yemen;69000;7;128
+183;Yibuti;6000;54;61;159
+184;Zambia;18000;5;143;167;108;119;185
+185;Zimbabue;15000;147;24;119
