@@ -62,4 +62,83 @@ Los paises usados son los siguientes y son 194:
 | Yemen | Yibuti | Zambia | Zimbabue |       |
 
 ---
+
+Extra: Taiwán - Cuenta al ejercito de China.
+
+Micronesia - Segun la informacion obtenida, Micronesia es una region o compuestos de islas de una zona, como se tiene pensado iddentificar por cada pais se contara cada una de las islas/repúblicas/paises que componen a esta.
+
+Cabo Verde - Segun la informacion obtenida, Cabo Verde es una region o compuestos de islas/municipios de una zona, como se tiene pensado iddentificar por cada pais se contara cada una de las islas/repúblicas/paises que componen a esta.
+
+Guyana - Segun la informacion obtenida, Guyana es unaregion monodepartamental francesa.
+
+Yibuti, mayormente conociddo como Djiouti o Franco de Djibouti, cuenta con su propio ejercito y acoge multiples bases militares extranjeras.
+
+No se encontro cifras/informacion militar de los siguientes paises, estos han sido descartados de la lista: Tonga, Togo, República de Surinam, Ruanda, Trinidad y Tobago, Seychelles, Timor Oriental, San Marino, Santo Tomé y Príncipe, Maldivas y Barbados.
+
+· PD: Se han eliminado de la lista a diferencia de aquellos que tienen un 0, esto se debe a que estos si tienen informacion pero no contempla que tengan ejercito.
+
+Australia, Bahamas, Baréin, Brunéi Se incluiran los paises mas cercanos a estos como paises vecinos.
+
+Belice no forma parte de Guatemala, pero tienen la misma frontera. Aunque no forma parte de Guatemala tiene la misma frontera, es algo raro.
+
+Monaco al ser un enclave de otro pais, como es el caso de Francia, se indicara como pais mas cercano a este.
+
+Singapur (ID: 144) es una ciudad-estado ubicada en una isla y no tiene fronteras terrestres con ningún país. Sin embargo, se encuentra en estrecha proximidad con Malasia (ID: 101), que limita con Singapur por tierra y está conectado a través de puentes y carreteras.
+
+Australia (ID: 11) es un país ubicado en Oceanía y no comparte fronteras terrestres con ningún otro país. Sin embargo, está rodeado por el océano y limita con varios países a través del mar.
+
+Estados Federados de Micronesia (ID: 59) no tiene fronteras terrestres con otros países, ya que es un archipiélago ubicado en el océano Pacífico. Sin embargo, comparte aguas marítimas con varios países de la región.
+
+Fiji (ID: 63) no limita con ningún país. Es un archipiélago en el océano Pacífico y no comparte fronteras terrestres con ninguna nación.
+
+Islandia (ID: 84) es una isla en el océano Atlántico Norte y no limita con ningún país.
+
+Las Islas Marshall (ID: 85) son un país insular ubicado en el océano Pacífico. No limita con ningún otro país.
+
+Las Islas Salomón (ID: 86) son un país insular ubicado en el océano Pacífico. No limita con ningún otro país.
+
+Jamaica (ID: 89) es una isla ubicada en el mar Caribe, por lo que no comparte fronteras terrestres con ningún país.
+
+Japón (ID: 90) es un archipiélago situado en el océano Pacífico, y no comparte fronteras terrestres con ningún país. Sin embargo, está ubicado cerca de varios países en la región de Asia Oriental
+
+Granada (ID: 70) es un país insular del Caribe y no comparte fronteras terrestres con ningún otro país.
+
+La República de Cabo Verde (ID: 141)  limita únicamente con el océano Atlántico. No comparte fronteras terrestres con otros países.
+
+Samoa (ID: 150) es un país insular ubicado en el Pacífico Sur y no limita con ningún otro país.
+
+San Cristóbal y Nieves (ID: 151) es un país insular ubicado en el mar Caribe y no limita con ningún otro país.
+
+San Vicente y las Granadinas (ID: 152) es un país insular ubicado en el mar Caribe y no limita con ningún otro país.
+
+Santa Lucía (ID: 153) es un país insular ubicado en el mar Caribe y no limita con ningún otro país.
+
+Singapur (ID: 157) es una ciudad-estado ubicada en el sureste de Asia y no limita con ningún país. Es una isla y se encuentra en la punta de la península malaya.
+
+Sri Lanka (ID: 160) es una isla ubicada en el océano Índico y no comparte fronteras terrestres con ningún país. Por lo tanto, no limita con ninguna nación en tierra firme.
+
+Tonga (ID: 170) es un país insular ubicado en el Pacífico Sur y no limita con ningún país.
+
+Tuvalu (ID: 174) es un país insular y no limita con ningún otro país.
+
+Vanuatu (ID: 179) es un archipiélago ubicado en el océano Pacífico y no limita con ningún país. Está rodeado por aguas oceánicas.
+
+Palaos o Palau
+
+Si como ID(s) de pais(es) cercano(s), se indica 0, es muy probable que se trate de una isla sin pais(es) cercano(s) o que no limite con otro pais.
+
+Países sin ejército permanente, pero con fuerza militar limitada: Costa Rica, Islandia, Bandera, Mónaco Mónaco, Panamá y Vanuatu Estos son considerados con un ejercito 0.
+
+Si alguien añade nuevos paises, que lo escriba al final de la lista de paises junto con el numero identificativo para la lista junto con el sufijo  -> (NUEVO)
+
+---
+Fuentes:
+
+Wikipedia (en español) -> https://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_tama%C3%B1o_de_sus_fuerzas_armadas
+Global security website (en inglés) -> https://www.globalsecurity.org/
+World Military Guide (en inglés) -> https://www.globalsecurity.org/military/world/index.html
+Fuerzas Armadas del Mundo -> http://ordendebatallainternacional.blogspot.com/2015/10/indice.html
+frwkiki -> https://es.frwiki.wiki/
+
+---
 ##### En un principio el juego esta pensado para hacerse en Java, no se descarta que enun futuro se haga en lenguaje como HTML (+ JS +CSS).
