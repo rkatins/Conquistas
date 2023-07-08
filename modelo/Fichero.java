@@ -1,7 +1,8 @@
 package modelo;
 
-import java.util.Properties;
+import java.util.ArrayList;
 
+import java.util.Properties;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.FileInputStream;
@@ -35,6 +36,8 @@ public class Fichero {
 //	    y se le asignara la codificacion UTF-8 para que pueda mostrarlo
 	    InputStreamReader ficheroPropiedadesConvertido = null;
 	    int aleatorio = (int)(Math.random() * 49) + 1;
+	    
+		ArrayList<Pais> paises = new ArrayList<>();
 
 	    try {
 	        ficheroPropiedades = new FileInputStream("files\\" + aleatorio + ".properties");
@@ -47,17 +50,27 @@ public class Fichero {
 //    		Ejercito=
 //    		PaisVecino=
 	        
-	        System.out.println(propiedades.getProperty("ID"));
-	        System.out.println(propiedades.getProperty("Nombre"));
-	        System.out.println(propiedades.getProperty("Ejercito"));
-	        System.out.println(propiedades.getProperty("PaisVecino"));
-	        System.out.println("\n\n");
+	        int id = Integer.parseInt(propiedades.getProperty("ID"));
+	        String nombre = propiedades.getProperty("Nombre");
+	        int ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
+	        String[] paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
 	        
 	        for (int i = 0; i < paises.size(); i++) {
-				
+				if (id == paises.get(i).getID()) {
+					i = paises.size() + 1;
+				} else {
+					Pais pais = new Pais();
+					
+					for (int j = 0; j < paisesVecinos.length; j++) {
+						pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
+					}
+					
+					pais.setID(id);
+					pais.setNombre(nombre);
+					pais.setEjercito(ejercito);
+				}
 			}
 	        
-	        String[] paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
 	        int segundoPais = Integer.parseInt(paisesVecinos[(int)(Math.random() * paisesVecinos.length)]);
 	        
 	        mLeerPropiedadesSegundo(segundoPais);
