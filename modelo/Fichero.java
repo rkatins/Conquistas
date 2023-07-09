@@ -59,9 +59,13 @@ public class Fichero {
 	        
 	        if (!existePais) {
 	            Pais pais = new Pais();
-	            for (int j = 0; j < paisesVecinos.length; j++) {
-	                pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
-	            }
+	            try {
+					for (int j = 0; j < paisesVecinos.length; j++) {
+		                pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
+		            }
+				} catch (NullPointerException e) {
+				}
+	            
 	            pais.setID(id);
 	            pais.setNombre(nombre);
 	            pais.setEjercito(ejercito);
@@ -74,9 +78,9 @@ public class Fichero {
 	        mLeerPropiedadesSegundo(segundoPais);
 	        ficheroPropiedades.close();
 	    } catch (FileNotFoundException e) {
-	        System.out.println("mLeerPropiedadesPrimero -> No se encontro el fichero");
+	        System.err.println("mLeerPropiedadesPrimero -> No se encontro el fichero");
 	    } catch (IOException e) {
-	        System.out.println("mLeerPropiedadesPrimero -> No se pudo leer el fichero");
+	        System.err.println("mLeerPropiedadesPrimero -> No se pudo leer el fichero");
 	    }
 	    
 	    return id;
@@ -129,9 +133,9 @@ public class Fichero {
 	        
 	        ficheroPropiedades.close();
 	    } catch (FileNotFoundException e) {
-	        System.out.println("mLeerPropiedadesSegundo -> No se encontro el fichero");
+	        System.err.println("mLeerPropiedadesSegundo -> No se encontro el fichero");
 	    } catch (IOException e) {
-	        System.out.println("mLeerPropiedadesSegundo -> No se pudo leer el fichero");
+	        System.err.println("mLeerPropiedadesSegundo -> No se pudo leer el fichero");
 	    }
 	    
 	    return ejercito;
