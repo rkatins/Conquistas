@@ -12,7 +12,7 @@ public class Comprobador {
 	public void mEmpezarComprobaciones() {
 		boolean conquistados = true;
 		
-		while (!conquistados) {
+		while (conquistados) {
 			int aleatorio = (int)(Math.random() * 185) + 1;
 			
 			int idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
