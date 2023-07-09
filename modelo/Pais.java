@@ -3,23 +3,29 @@ package modelo;
 import java.util.ArrayList;
 
 public class Pais {
-    private String ID;
+    private int ID;
     private String Nombre;
     private int Ejercito;
     private ArrayList<Integer> PaisVecino;
+    private boolean conquistado;
 
-    public Pais(String ID, String Nombre, int Ejercito, ArrayList<Integer> PaisVecino) {
+    public Pais(int ID, String Nombre, int Ejercito, ArrayList<Integer> PaisVecino) {
         this.ID = ID;
         this.Nombre = Nombre;
         this.Ejercito = Ejercito;
         this.PaisVecino = PaisVecino;
+        this.conquistado = false;
     }
     
-    public String getID() {
+    public Pais() {
+    	
+	}
+
+	public int getID() {
         return ID;
     }
 
-    public void setID(String ID) {
+    public void setID(int ID) {
         this.ID = ID;
     }
 
@@ -46,6 +52,14 @@ public class Pais {
     public void setPaisVecino(ArrayList<Integer> PaisVecino) {
         this.PaisVecino = PaisVecino;
     }
+    
+	public boolean isConquistado() {
+		return conquistado;
+	}
+
+	public void setConquistado(boolean conquistado) {
+		this.conquistado = conquistado;
+	}
 
 	@Override
 	public String toString() {
