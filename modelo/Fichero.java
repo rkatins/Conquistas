@@ -48,23 +48,26 @@ public class Fichero {
 	        ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
 	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
 	        
+	        boolean existePais = false;
+	        
 	        for (int i = 0; i < paises.size(); i++) {
 				if (id == paises.get(i).getID()) {
+					existePais = true;
 					i = paises.size() + 1;
-				} else {
-					Pais pais = new Pais();
-					
-					for (int j = 0; j < paisesVecinos.length; j++) {
-						pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
-					}
-					
-					pais.setID(id);
-					pais.setNombre(nombre);
-					pais.setEjercito(ejercito);
-					
-					paises.add(pais);
 				}
 			}
+	        
+	        if (!existePais) {
+	            Pais pais = new Pais();
+	            for (int j = 0; j < paisesVecinos.length; j++) {
+	                pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
+	            }
+	            pais.setID(id);
+	            pais.setNombre(nombre);
+	            pais.setEjercito(ejercito);
+	            
+	            paises.add(pais);
+	        }
 	        
 	        segundoPais = Integer.parseInt(paisesVecinos[(int)(Math.random() * paisesVecinos.length)]);
 	        
@@ -103,23 +106,26 @@ public class Fichero {
 	        ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
 	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
 	        
+	        boolean existePais = false;
+	        
 	        for (int i = 0; i < paises.size(); i++) {
 				if (id == paises.get(i).getID()) {
+					existePais = true;
 					i = paises.size() + 1;
-				} else {
-					Pais pais = new Pais();
-					
-					for (int j = 0; j < paisesVecinos.length; j++) {
-						pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
-					}
-					
-					pais.setID(id);
-					pais.setNombre(nombre);
-					pais.setEjercito(ejercito);
-					
-					paises.add(pais);
 				}
 			}
+	        
+	        if (!existePais) {
+	            Pais pais = new Pais();
+	            for (int j = 0; j < paisesVecinos.length; j++) {
+	                pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
+	            }
+	            pais.setID(id);
+	            pais.setNombre(nombre);
+	            pais.setEjercito(ejercito);
+	            
+	            paises.add(pais);
+	        }
 	        
 	        ficheroPropiedades.close();
 	    } catch (FileNotFoundException e) {
