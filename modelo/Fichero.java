@@ -24,11 +24,11 @@ public class Fichero {
 	    InputStream ficheroPropiedades = null;
 	    InputStreamReader ficheroPropiedadesConvertido = null;
 	    
-	    int id = 0;
+	    int id = aleatorio;
 	    String nombre;
-	    int ejercito;
+	    int ejercito = 0;
 	    String[] paisesVecinos;
-	    int segundoPais;
+	    int segundoPais = 0;
 
 	    try {
 //		    Lo siguiente permitira leer ficheros, los cuales contiene un valor no legible
@@ -45,20 +45,21 @@ public class Fichero {
 	        
 	        id = Integer.parseInt(propiedades.getProperty("ID"));
 	        nombre = propiedades.getProperty("Nombre");
-	        ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
-	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
+	        try {
+	        	ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
+			} catch (NumberFormatException e) {
+				// TODO: handle exception
+			}
 	        
-	        boolean existePais = false;
+	        
+	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
+	        System.out.println("id -> " + id);
 	        
 	        for (int i = 0; i < paises.size(); i++) {
 				if (id == paises.get(i).getID()) {
-					existePais = true;
 					i = paises.size() + 1;
-				}
-			}
-	        
-	        if (!existePais) {
-	            Pais pais = new Pais();
+				} else {
+					Pais pais = new Pais();
 	            try {
 					for (int j = 0; j < paisesVecinos.length; j++) {
 		                pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
@@ -71,9 +72,15 @@ public class Fichero {
 	            pais.setEjercito(ejercito);
 	            
 	            paises.add(pais);
-	        }
+				}
+			}
 	        
-	        segundoPais = Integer.parseInt(paisesVecinos[(int)(Math.random() * paisesVecinos.length)]);
+	        try {
+	        	segundoPais = Integer.parseInt(paisesVecinos[(int)(Math.random() * paisesVecinos.length)]);
+			} catch (NumberFormatException e) {
+				// TODO: handle exception
+			}
+	        
 	        
 	        mLeerPropiedadesSegundo(segundoPais);
 	        ficheroPropiedades.close();
@@ -82,7 +89,7 @@ public class Fichero {
 	    } catch (IOException e) {
 	        System.err.println("mLeerPropiedadesPrimero -> No se pudo leer el fichero");
 	    }
-	    
+        
 	    return id;
 	}
 	
@@ -121,9 +128,14 @@ public class Fichero {
 	        
 	        if (!existePais) {
 	            Pais pais = new Pais();
-	            for (int j = 0; j < paisesVecinos.length; j++) {
-	                pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
-	            }
+	            
+	            try {
+	            	for (int j = 0; j < paisesVecinos.length; j++) {
+	            		pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
+		            }
+				} catch (NullPointerException e) {
+				}
+
 	            pais.setID(id);
 	            pais.setNombre(nombre);
 	            pais.setEjercito(ejercito);
