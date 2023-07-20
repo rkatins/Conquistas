@@ -1,7 +1,6 @@
 package modelo;
 
 import java.util.ArrayList;
-
 import java.util.Properties;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -28,7 +27,6 @@ public class Fichero {
 	    String nombre;
 	    int ejercito = 0;
 	    String[] paisesVecinos;
-	    int segundoPais = 0;
 
 	    try {
 //		    Lo siguiente permitira leer ficheros, los cuales contiene un valor no legible
@@ -48,12 +46,96 @@ public class Fichero {
 	        try {
 	        	ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
 			} catch (NumberFormatException e) {
-				// TODO: handle exception
 			}
-	        
-	        
 	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
-	        System.out.println("id -> " + id);
+	        
+	        boolean paisDuplicado = false;
+	        
+	        for (int i = 0; i < paises.size(); i++) {
+	        	try {
+	        		if (id == paises.get(i).getID()) {
+						i = paises.size() + 1;
+						paisDuplicado = true;
+					}
+				} catch (IndexOutOfBoundsException e) {
+					System.err.println("61 -> No hay nada de nada guardado en el ArrayList<Pais> => paises");
+				}
+	        }
+	        
+	        if (!paisDuplicado) {
+	            Pais pais = new Pais();
+	            try {
+					for (int j = 0; j < paisesVecinos.length; j++) {
+						try {
+							pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
+						} catch (NumberFormatException e) {
+							System.err.println("72 -> No fue posible convertir la cadena de texto paisesVecinos[j] en un numero, o es null");
+						} catch (IndexOutOfBoundsException e) {
+							System.err.println("74 -> No hay nada de nada guardado en el ArrayList<Pais> => paisesVecinos");
+						}
+		            }
+				} catch (NullPointerException e) {
+				}
+	            
+	            pais.setID(id);
+	            pais.setNombre(nombre);
+	            pais.setEjercito(ejercito);
+	            
+	            paises.add(pais);
+	            paisDuplicado = false;
+	        }     		
+
+
+			
+	        ficheroPropiedades.close();
+	    } catch (FileNotFoundException e) {
+	        System.err.println("mLeerPropiedadesPrimero -> No se encontro el fichero");
+	    } catch (IOException e) {
+	        System.err.println("mLeerPropiedadesPrimero -> No se pudo leer el fichero");
+	    }
+        
+	    return id;
+	}
+	
+	public int mLeerPropiedadesSegundo(int primerPaisID) {
+	    Properties propiedades = new Properties();
+	    InputStream ficheroPropiedades = null;
+	    
+	    int id;
+	    String nombre;
+	    int ejercito = 0;
+	    String[] paisesVecinos;
+	    
+	    for (int i = 0; i < paises.size(); i++) {
+	    	if (primerPaisID == paises.get(i).getID()) {
+	    		id = paises.get(i).getPaisVecino().get((int) (Math.random() * paises.get(i).getPaisVecino().size()) + 1);
+			}
+		}
+
+	    try {
+	        ficheroPropiedades = new FileInputStream("files\\" + primerPaisID + ".properties");
+	        propiedades.load(ficheroPropiedades);
+	        
+//	        ESTRUCTURA - Fichero de propiedades
+//	        ID=
+//    		Nombre=
+//    		Ejercito=
+//    		PaisVecino=
+	        
+	        id = Integer.parseInt(propiedades.getProperty("ID"));
+	        nombre = propiedades.getProperty("Nombre");
+	        try {
+	        	ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
+	        	
+//	        	 NumberFormatException no se produce cuando se devuelve un valor null,
+//	        	 sino cuando se intenta convertir una cadena de caracteres en un número,
+//	        	 pero la cadena no tiene un formato numérico válido.
+//	        	 La excepción NumberFormatException se lanza cuando se utiliza el
+//	        	 método Integer.parseInt() (o métodos similares para otros tipos numéricos)
+//	        	 para convertir una cadena en un número entero, pero la cadena no se puede interpretar como un número válido.
+			} catch (NumberFormatException e) {
+			}
+	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
 	        
 	        for (int i = 0; i < paises.size(); i++) {
 				if (id == paises.get(i).getID()) {
@@ -74,74 +156,6 @@ public class Fichero {
 	            paises.add(pais);
 				}
 			}
-	        
-	        try {
-	        	segundoPais = Integer.parseInt(paisesVecinos[(int)(Math.random() * paisesVecinos.length)]);
-			} catch (NumberFormatException e) {
-				// TODO: handle exception
-			}
-	        
-	        
-	        mLeerPropiedadesSegundo(segundoPais);
-	        ficheroPropiedades.close();
-	    } catch (FileNotFoundException e) {
-	        System.err.println("mLeerPropiedadesPrimero -> No se encontro el fichero");
-	    } catch (IOException e) {
-	        System.err.println("mLeerPropiedadesPrimero -> No se pudo leer el fichero");
-	    }
-        
-	    return id;
-	}
-	
-	public int mLeerPropiedadesSegundo(int segundoPaisID) {
-	    Properties propiedades = new Properties();
-	    InputStream ficheroPropiedades = null;
-	    
-	    int id;
-	    String nombre;
-	    int ejercito = 0;
-	    String[] paisesVecinos;
-
-	    try {
-	        ficheroPropiedades = new FileInputStream("files\\" + segundoPaisID + ".properties");
-	        propiedades.load(ficheroPropiedades);
-	        
-//	        ESTRUCTURA - Fichero de propiedades
-//	        ID=
-//    		Nombre=
-//    		Ejercito=
-//    		PaisVecino=
-	        
-	        id = Integer.parseInt(propiedades.getProperty("ID"));
-	        nombre = propiedades.getProperty("Nombre");
-	        ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
-	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
-	        
-	        boolean existePais = false;
-	        
-	        for (int i = 0; i < paises.size(); i++) {
-				if (id == paises.get(i).getID()) {
-					existePais = true;
-					i = paises.size() + 1;
-				}
-			}
-	        
-	        if (!existePais) {
-	            Pais pais = new Pais();
-	            
-	            try {
-	            	for (int j = 0; j < paisesVecinos.length; j++) {
-	            		pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
-		            }
-				} catch (NullPointerException e) {
-				}
-
-	            pais.setID(id);
-	            pais.setNombre(nombre);
-	            pais.setEjercito(ejercito);
-	            
-	            paises.add(pais);
-	        }
 	        
 	        ficheroPropiedades.close();
 	    } catch (FileNotFoundException e) {
