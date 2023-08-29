@@ -16,6 +16,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Fichero {
 	ArrayList<Pais> paises = new ArrayList<>();
+	private int[] paisesVecinosConvertidos;
 	
 	
 	public int mLeerPropiedadesPrimero(int aleatorio) {
@@ -26,8 +27,8 @@ public class Fichero {
 	    int id = aleatorio;
 	    String nombre;
 	    int ejercito = 0;
-	    String[] paisesVecinos;
-
+	    ArrayList<Integer> paisesVecinos = new ArrayList<>();
+	   
 	    try {
 //		    Lo siguiente permitira leer ficheros, los cuales contiene un valor no legible
 //		    y se le asignara la codificacion UTF-8 para que pueda mostrarlo
@@ -41,13 +42,18 @@ public class Fichero {
 //    		Ejercito=
 //    		PaisVecino=
 	        
+	        
 	        id = Integer.parseInt(propiedades.getProperty("ID"));
+	        
 	        nombre = propiedades.getProperty("Nombre");
-	        try {
-	        	ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
-			} catch (NumberFormatException e) {
+	        
+	        ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
+	        
+	        int longitudPaisesVecinos = propiedades.getProperty("PaisVecino").split(";").length;
+	        String[] arrayPaisesVecinos = propiedades.getProperty("PaisVecino").split(";");
+	        for (int i = 0; i < longitudPaisesVecinos; i++) {
+				paisesVecinos.add(Integer.parseInt(arrayPaisesVecinos[i]));
 			}
-	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
 	        
 	        boolean paisDuplicado = false;
 	        
@@ -58,20 +64,20 @@ public class Fichero {
 						paisDuplicado = true;
 					}
 				} catch (IndexOutOfBoundsException e) {
-					System.err.println("61 -> No hay nada de nada guardado en el ArrayList<Pais> => paises");
+					System.err.println("82 -> No hay nada de nada guardado en el ArrayList<Pais> => paises");
 				}
 	        }
 	        
 	        if (!paisDuplicado) {
-	            Pais pais = new Pais();
+	            Pais pais = new Pais(id, nombre, ejercito, paisesVecinos);
 	            try {
-					for (int j = 0; j < paisesVecinos.length; j++) {
+					for (int j = 0; j < paisesVecinosConvertidos.length; j++) {
 						try {
-							pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
+							pais.getPaisVecino().add(paisesVecinosConvertidos[j]);
 						} catch (NumberFormatException e) {
-							System.err.println("72 -> No fue posible convertir la cadena de texto paisesVecinos[j] en un numero, o es null");
+							System.err.println("93 -> No fue posible convertir la cadena de texto paisesVecinos[j] en un numero, o es null");
 						} catch (IndexOutOfBoundsException e) {
-							System.err.println("74 -> No hay nada de nada guardado en el ArrayList<Pais> => paisesVecinos");
+							System.err.println("95 -> No hay nada de nada guardado en el ArrayList<Pais> => paisesVecinos");
 						}
 		            }
 				} catch (NullPointerException e) {
@@ -85,7 +91,9 @@ public class Fichero {
 	            paisDuplicado = false;
 	        }     		
 
-
+			for (int i = 0; i < paises.size(); i++) {
+				System.out.println("ArrayList -> " + paises.get(i));
+			}
 			
 	        ficheroPropiedades.close();
 	    } catch (FileNotFoundException e) {
