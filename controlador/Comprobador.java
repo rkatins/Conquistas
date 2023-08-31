@@ -14,11 +14,32 @@ public class Comprobador {
 		
 		while (conquistados) {
 			int aleatorio = (int)(Math.random() * 185) + 1;
-			System.out.println("aleatorio -> " + aleatorio);
+//			System.out.println("COMPROBADOR-aleatorio -> " + aleatorio);
 			
 			int idFichero1 = 0;
-			int ejercitoFichero1;
+			int ejercitoFichero1 = 0;
+			
+			int idFichero2 = 0;
+			int ejercitoFichero2 = 0;			
+			
 			idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
+			paises = fichero.mDevolverArrayList();
+			
+			for (int i = 0; i < paises.size(); i++) {
+				if (idFichero1 == paises.get(i).getID()) {
+					int paisVecinoAleatorio = paises.get(i).getPaisVecino().size();
+					System.out.println(paises.get(i).getNombre() + " => " + paises.get(i).getPaisVecino());
+					
+					idFichero2 = paises.get(i).getPaisVecino().get((int) (Math.random() * paisVecinoAleatorio));
+					System.out.println(idFichero2);
+				}
+			}
+			
+//			System.out.println("COMPROBADOR-idFichero1 -> " + idFichero1 + "\n");
+//			idFichero2 = fichero.mLeerPropiedadesSegundo(idFichero1);
+
+			
+			paises = fichero.mDevolverArrayList();
 			
 			conquistados = false;
 //			mActualizarArrayList();
