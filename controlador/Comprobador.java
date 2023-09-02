@@ -23,7 +23,7 @@ public class Comprobador {
 			int ejercitoFichero2 = 0;			
 			
 			idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
-			paises = fichero.mDevolverArrayList();
+			paises = mActualizarArrayList();
 			
 			for (int i = 0; i < paises.size(); i++) {
 				if (idFichero1 == paises.get(i).getID()) {
@@ -35,11 +35,17 @@ public class Comprobador {
 				}
 			}
 			
+			fichero.mLeerPropiedadesSegundo(idFichero2);
+			paises = mActualizarArrayList();
+			
 //			System.out.println("COMPROBADOR-idFichero1 -> " + idFichero1 + "\n");
 //			idFichero2 = fichero.mLeerPropiedadesSegundo(idFichero1);
 
-			
-			paises = fichero.mDevolverArrayList();
+			for (int i = 0; i < paises.size(); i++) {
+				if (idFichero2 == paises.get(i).getID()) {
+					System.out.println(paises.get(i).getID() + "_" + paises.get(i).getNombre() + " => " + paises.get(i).getPaisVecino());
+				}
+			}
 			
 			conquistados = false;
 //			mActualizarArrayList();
@@ -113,9 +119,7 @@ public class Comprobador {
 		}
 	}
 	
-	private void mActualizarArrayList() {
-		for (int i = 0; i < fichero.mDevolverArrayList().size(); i++) {
-			paises.add(fichero.mDevolverArrayList().get(i));
-		}
+	private ArrayList<Pais> mActualizarArrayList() {
+		return fichero.mDevolverArrayList();
 	}
 }
