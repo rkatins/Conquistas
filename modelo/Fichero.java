@@ -24,7 +24,9 @@ public class Fichero {
 	    InputStream ficheroPropiedades = null;
 	    InputStreamReader ficheroPropiedadesConvertido = null;
 	    
+	    // Podria contener un valor 0, solamente esta para inicializar la variable
 	    int id = aleatorio;
+	    
 	    String nombre;
 	    int ejercito = 0;
 	    ArrayList<Integer> paisesVecinos = new ArrayList<>();
@@ -42,11 +44,8 @@ public class Fichero {
 //    		Ejercito=
 //    		PaisVecino=
 	        
-	        
 	        id = Integer.parseInt(propiedades.getProperty("ID"));
-	        
 	        nombre = propiedades.getProperty("Nombre");
-	        
 	        ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
 	        
 	        int longitudPaisesVecinos = propiedades.getProperty("PaisVecino").split(";").length;
@@ -89,11 +88,7 @@ public class Fichero {
 	            
 	            paises.add(pais);
 	            paisDuplicado = false;
-	        }     		
-
-//			for (int i = 0; i < paises.size(); i++) {
-//				System.out.println("ArrayList -> " + paises.get(i));
-//			}
+	        }
 			
 	        ficheroPropiedades.close();
 	    } catch (FileNotFoundException e) {
@@ -105,76 +100,87 @@ public class Fichero {
 	    return id;
 	}
 	
-	public void mLeerPropiedadesSegundo(int primerPaisID) {
+	public int mLeerPropiedadesSegundo(int idAleatorio2) {
 	    Properties propiedades = new Properties();
 	    InputStream ficheroPropiedades = null;
+	    InputStreamReader ficheroPropiedadesConvertido = null;
+
 	    
-	    int id = 0;
+	    // Podria contener un valor 0, solamente esta para inicializar la variable
+	    int id = idAleatorio2;
+	    
 	    String nombre;
 	    int ejercito = 0;
-	    String[] paisesVecinos;
-	    
-//	    Es posible que el siguiente FOR sea borrado
-	    for (int i = 0; i < paises.size(); i++) {
-	    	if (primerPaisID == paises.get(i).getID()) {
-	    		System.out.println(paises.get(i).getPaisVecino().get((int) (Math.random() * paises.get(i).getPaisVecino().size()) + 1));
-//	    		id = paises.get(i).getPaisVecino().get((int) (Math.random() * paises.get(i).getPaisVecino().size()) + 1);
-			}
-		}
+	    ArrayList<Integer> paisesVecinos = new ArrayList<>();
 
-//	    try {
-//	        ficheroPropiedades = new FileInputStream("files\\" + primerPaisID + ".properties");
-//	        propiedades.load(ficheroPropiedades);
-//	        
-////	        ESTRUCTURA - Fichero de propiedades
-////	        ID=
-////    		Nombre=
-////    		Ejercito=
-////    		PaisVecino=
-//	        
-//	        id = Integer.parseInt(propiedades.getProperty("ID"));
-//	        nombre = propiedades.getProperty("Nombre");
-//	        try {
-//	        	ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
-//	        	
-////	        	 NumberFormatException no se produce cuando se devuelve un valor null,
-////	        	 sino cuando se intenta convertir una cadena de caracteres en un número,
-////	        	 pero la cadena no tiene un formato numérico válido.
-////	        	 La excepción NumberFormatException se lanza cuando se utiliza el
-////	        	 método Integer.parseInt() (o métodos similares para otros tipos numéricos)
-////	        	 para convertir una cadena en un número entero, pero la cadena no se puede interpretar como un número válido.
-//			} catch (NumberFormatException e) {
-//			}
-//	        paisesVecinos = propiedades.getProperty("PaisVecino").split(";");
-//	        
-//	        for (int i = 0; i < paises.size(); i++) {
-//				if (id == paises.get(i).getID()) {
-//					i = paises.size() + 1;
-//				} else {
-//					Pais pais = new Pais();
-//	            try {
-//					for (int j = 0; j < paisesVecinos.length; j++) {
-//		                pais.getPaisVecino().add(Integer.parseInt(paisesVecinos[j]));
-//		            }
-//				} catch (NullPointerException e) {
-//				}
-//	            
-//	            pais.setID(id);
-//	            pais.setNombre(nombre);
-//	            pais.setEjercito(ejercito);
-//	            
-//	            paises.add(pais);
-//				}
-//			}
-//	        
-//	        ficheroPropiedades.close();
-//	    } catch (FileNotFoundException e) {
-//	        System.err.println("mLeerPropiedadesSegundo -> No se encontro el fichero");
-//	    } catch (IOException e) {
-//	        System.err.println("mLeerPropiedadesSegundo -> No se pudo leer el fichero");
-//	    }
-//	    
-//	    return ejercito;
+	    try {
+//		    Lo siguiente permitira leer ficheros, los cuales contiene un valor no legible
+//		    y se le asignara la codificacion UTF-8 para que pueda mostrarlo
+	        ficheroPropiedades = new FileInputStream("files\\" + idAleatorio2 + ".properties");
+	        ficheroPropiedadesConvertido = new InputStreamReader(ficheroPropiedades, StandardCharsets.UTF_8);
+	        propiedades.load(ficheroPropiedadesConvertido);
+	        
+//	        ESTRUCTURA - Fichero de propiedades
+//	        ID=
+//    		Nombre=
+//    		Ejercito=
+//    		PaisVecino=
+	        	        
+	        id = Integer.parseInt(propiedades.getProperty("ID"));
+	        
+	        nombre = propiedades.getProperty("Nombre");
+	        
+	        ejercito = Integer.parseInt(propiedades.getProperty("Ejercito"));
+	        
+	        int longitudPaisesVecinos = propiedades.getProperty("PaisVecino").split(";").length;
+	        String[] arrayPaisesVecinos = propiedades.getProperty("PaisVecino").split(";");
+	        for (int i = 0; i < longitudPaisesVecinos; i++) {
+				paisesVecinos.add(Integer.parseInt(arrayPaisesVecinos[i]));
+			}
+	        
+	        boolean paisDuplicado = false;
+	        
+	        for (int i = 0; i < paises.size(); i++) {
+	        	try {
+	        		if (id == paises.get(i).getID()) {
+						i = paises.size() + 1;
+						paisDuplicado = true;
+					}
+				} catch (IndexOutOfBoundsException e) {
+					System.err.println("TCx002001 -> No hay nada de nada guardado en el ArrayList<Pais> => paises");
+				}
+	        }
+	        
+	        if (!paisDuplicado) {
+	            Pais pais = new Pais(id, nombre, ejercito, paisesVecinos);
+	            try {
+					for (int j = 0; j < paisesVecinosConvertidos.length; j++) {
+						try {
+							pais.getPaisVecino().add(paisesVecinosConvertidos[j]);
+						} catch (NumberFormatException e) {
+							System.err.println("TCx002002 -> No fue posible convertir la cadena de texto paisesVecinos[j] en un numero, o es null");
+						} catch (IndexOutOfBoundsException e) {
+							System.err.println("TCx002003 -> No hay nada de nada guardado en el ArrayList<Pais> => paisesVecinos");
+						}
+		            }
+				} catch (NullPointerException e) {
+				}
+	            
+	            pais.setID(id);
+	            pais.setNombre(nombre);
+	            pais.setEjercito(ejercito);
+	            
+	            paises.add(pais);
+	            paisDuplicado = false;
+	        }
+			
+	        ficheroPropiedades.close();
+	    } catch (FileNotFoundException e) {
+	        System.err.println("TCx002004 -> No se encontro el fichero");
+	    } catch (IOException e) {
+	        System.err.println("TCx002005 -> No se pudo leer el fichero");
+	    }
+	    return id;
 	}
 	
 	public ArrayList<Pais> mDevolverArrayList() {
