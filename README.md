@@ -1,5 +1,5 @@
 * El juego consistirá en la eleccion aleatoria de un pais, este elegira de forma aleatoria entre los paises vecinos (se entiende por pais vecino, a quél con el que hace frontera) para comprobar el numero de soldados alistados (la potencia militar).
-* Se realizaran jugadas cada 3 minutos, estas se haran de foma automatica sin necesidad de que un usuario jugador interactue.
+* Se realizaran jugadas cada 3 minutos (los 3 minutos es provisional, se baraja la idea de usar otros tiempos), estas se haran de foma automatica sin necesidad de que un usuario jugador interactue.
 * Actualmente el juego no dispondra de un entorno grafico y todo se mostrara en un correo (o un SMS) con las actualizaciones del dia y se dispondra con la siguiente estructura:
 DIA "variable contador dias"
 "variable paisX" ha declarado la guera a "variable paisY"
