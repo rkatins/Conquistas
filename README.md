@@ -141,4 +141,7 @@ Fuerzas Armadas del Mundo -> http://ordendebatallainternacional.blogspot.com/201
 frwkiki -> https://es.frwiki.wiki/
 
 ---
+https://trello.com/b/ZbxJ3BkQ
+
+---
 ##### En un principio el juego esta pensado para hacerse en Java, no se descarta que enun futuro se haga en lenguaje como HTML (+ JS +CSS).
