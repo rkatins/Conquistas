@@ -11,10 +11,10 @@ public class Comprobador {
 	
 	public void mEmpezarComprobaciones() {
 		boolean conquistados = true;
+		int vueltas = 0;
 		
 		while (conquistados) {
 			int aleatorio = (int)(Math.random() * 185) + 1;
-//			System.out.println("COMPROBADOR-aleatorio -> " + aleatorio);
 			
 			int idFichero1 = 0;
 			int ejercitoFichero1 = 0;
@@ -27,29 +27,39 @@ public class Comprobador {
 			
 			for (int i = 0; i < paises.size(); i++) {
 				if (idFichero1 == paises.get(i).getID()) {
-					int paisVecinoAleatorio = paises.get(i).getPaisVecino().size();
-					System.out.println(paises.get(i).getNombre() + " => " + paises.get(i).getPaisVecino());
+					while (paises.get(i).getPaisVecino().size() == 0) {
+						paises.remove(i);
+						
+						aleatorio = (int)(Math.random() * 185) + 1;
+						idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
+						paises = mActualizarArrayList();
 					
-					idFichero2 = paises.get(i).getPaisVecino().get((int) (Math.random() * paisVecinoAleatorio));
-					System.out.println(idFichero2);
+					}
 				}
 			}
 			
-			fichero.mLeerPropiedadesSegundo(idFichero2);
 			paises = mActualizarArrayList();
-			
-//			System.out.println("COMPROBADOR-idFichero1 -> " + idFichero1 + "\n");
-//			idFichero2 = fichero.mLeerPropiedadesSegundo(idFichero1);
-
 			for (int i = 0; i < paises.size(); i++) {
-				if (idFichero2 == paises.get(i).getID()) {
+				if (idFichero1 == paises.get(i).getID()) {
 					System.out.println(paises.get(i).getID() + "_" + paises.get(i).getNombre() + " => " + paises.get(i).getPaisVecino());
 				}
 			}
 			
-			conquistados = false;
-//			mActualizarArrayList();
-//			
+			
+			
+			
+			
+			// Solamente esta para ejecutarse las veces que se requiera para hacer pruebas
+			vueltas++;
+			
+			if (vueltas == 1) {
+				conquistados = false;
+			} else {
+				conquistados = true;
+				System.out.println("--- --- --- ---");
+			}
+			
+			//			
 //			int idFichero2 = 0;
 //			for (int i = 0; i < paises.size(); i++) {
 //				if (paises.get(i).getID() == idFichero1) {
