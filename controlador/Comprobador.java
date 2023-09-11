@@ -25,23 +25,23 @@ public class Comprobador {
 			idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
 			paises = mActualizarArrayList();
 			
-			for (int i = 0; i < paises.size(); i++) {
-				if (idFichero1 == paises.get(i).getID()) {
-					while (paises.get(i).getPaisVecino().size() == 0) {
-						paises.remove(i);
-						
-						aleatorio = (int)(Math.random() * 185) + 1;
-						idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
-						paises = mActualizarArrayList();
-					
+				for (int i = 0; i < paises.size(); i++) {
+					if (idFichero1 == paises.get(i).getID()) {
+						while (paises.get(i).getPaisVecino().size() == 1 && paises.get(i).getPaisVecino().contains(0)) {
+							paises.remove(i);
+							
+							aleatorio = (int)(Math.random() * 185) + 1;
+							idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
+							
+							paises = mActualizarArrayList();
+						}
 					}
 				}
-			}
 			
 			paises = mActualizarArrayList();
 			for (int i = 0; i < paises.size(); i++) {
 				if (idFichero1 == paises.get(i).getID()) {
-					System.out.println(paises.get(i).getID() + "_" + paises.get(i).getNombre() + " => " + paises.get(i).getPaisVecino());
+					System.out.println(paises.get(i).getID() + "_" + paises.get(i).getNombre() + " => " + paises.get(i).getPaisVecino() + " logitud = " + paises.get(i).getPaisVecino().size());
 				}
 			}
 			
