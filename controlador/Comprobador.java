@@ -15,6 +15,7 @@ public class Comprobador {
 		
 		while (conquistados) {
 			int aleatorio = (int)(Math.random() * 185) + 1;
+			int aleatorio2 = 0;
 			
 			int idFichero1 = 0;
 			int ejercitoFichero1 = 0;
@@ -25,34 +26,32 @@ public class Comprobador {
 			idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
 			paises = mActualizarArrayList();
 			
-				for (int i = 0; i < paises.size(); i++) {
-					if (idFichero1 == paises.get(i).getID()) {
-						while (paises.get(i).getPaisVecino().size() == 1 && paises.get(i).getPaisVecino().contains(0)) {
-							paises.remove(i);
-							
-							aleatorio = (int)(Math.random() * 185) + 1;
-							idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
-							
-							paises = mActualizarArrayList();
-						}
-					}
-				}
+			boolean noPisesVecinos = false;
 			
-			paises = mActualizarArrayList();
-			for (int i = 0; i < paises.size(); i++) {
-				if (idFichero1 == paises.get(i).getID()) {
-					System.out.println(paises.get(i).getID() + "_" + paises.get(i).getNombre() + " => " + paises.get(i).getPaisVecino() + " logitud = " + paises.get(i).getPaisVecino().size());
+			while (!noPisesVecinos) {
+				for (int i = 0; i < paises.size(); i++) {
+					if (idFichero1 == paises.get(i).getID() && (paises.get(i).getPaisVecino().size() == 1 && paises.get(i).getPaisVecino().contains(0))) {
+						paises.remove(i);
+						
+						aleatorio = (int)(Math.random() * 185) + 1;
+						idFichero1 = fichero.mLeerPropiedadesPrimero(aleatorio);
+						
+						noPisesVecinos = false;
+					} else {
+						noPisesVecinos = true;
+					}
 				}
 			}
 			
+			idFichero2 = fichero.mLeerPropiedadesSegundo(idFichero1);
+			paises = mActualizarArrayList();
 			
-			
-			
+			mMostrarIds(idFichero1, idFichero2);
 			
 			// Solamente esta para ejecutarse las veces que se requiera para hacer pruebas
 			vueltas++;
 			
-			if (vueltas == 1) {
+			if (vueltas == 5) {
 				conquistados = false;
 			} else {
 				conquistados = true;
@@ -127,6 +126,16 @@ public class Comprobador {
 //				System.err.println("En la batalla entre " + nombreFichero1 + " y " + nombreFichero2 + ": GANA " + nombreFichero1);
 //			}
 		}
+	}
+	
+	private void mMostrarIds(int idFichero1, int idFichero2) {
+		for (int i = 0; i < paises.size(); i++) {
+			if (idFichero1 == paises.get(i).getID()) {
+				System.out.println("id1 -> " + paises.get(i).getID() + " - " + paises.get(i).getPaisVecino());
+			}
+		}
+		
+		System.out.println("id2 -> " + idFichero2);
 	}
 	
 	private ArrayList<Pais> mActualizarArrayList() {
